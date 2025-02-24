@@ -1,3 +1,3 @@
-Estructura de la Página (HTML)
+la conexion para java script y css (HTML)
 Diseño y Estilo (css)
-Lógica de la Calculadora (JavaScript)
+la estructura y Lógica de la Calculadora (JavaScript)

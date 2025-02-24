@@ -43,10 +43,27 @@ window.onload = function() {
         container.appendChild(buttonRow);
     });
 };
-
-
+// Función para agregar números al display
+function appendNumber(display, number) {
+    display.value += number;
+}
 
 // Función para agregar operadores al display
+function appendOperator(display, operator) {
+    display.value += operator;
+}
 
+// Función para borrar el display
+function clearDisplay(display) {
+    display.value = "";
+}
 
 // Función para calcular el resultado
+function calculate(display) {
+    try {
+        let result = eval(display.value);
+        display.value = result;
+    } catch (error) {
+        display.value = "Error";
+    }
+}
